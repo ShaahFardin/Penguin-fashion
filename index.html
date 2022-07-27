@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap practiceday</title>
+
+
+    <!-- Bootstrap CDN link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+
+
+    <!-- Fontawasome link  -->
+    <script src="https://kit.fontawesome.com/6d5989b389.js" crossorigin="anonymous"></script>
+
+
+
+    <!-- Custom CSS link  -->
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <!-- Header section starts  -->
+    <header class=" banner-bg-color">
+        <!-- Navbar section starts  -->
+        <nav class="navbar navbar-expand-lg  container">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img class="img-fluid " src="icons/Logo.png" alt="" width="250"
+                        height="250"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Navbaar section ends  -->
+
+
+
+
+        <!-- Banner section starts  -->
+        <section>
+            <div class="card mb-3 border-0 banner-bg-color">
+                <div class=" row g-0 flex-sm-row-reverse">
+
+                    <div class="col-md-6 d-flex align-items-center">
+                        <div class="card-body ">
+                            <div>
+                                <h1 class="card-title fw-bold"><span class="text-price-button-color">NIKE
+                                        REACT</span><br>
+                                    INFINITY RUN 2</h1>
+                                <p class="card-text">Nike react infinity run is currently rullling the market</p>
+                                <button class="btn btn-primary"><i class="fa-solid fa-cart-shopping"></i>Buy
+                                    Now</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 d-flex align-items-center justify-content-center p-3">
+                        <img src="images/Group 33092.png" class="img-fluid rounded-start w-50" alt="...">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Banner section ends -->
+
+    </header>
+    <!-- Header section ends  -->
+
+
+
+
+
+
+    <!-- Main sectioin starts  -->
+
+    <!-- Casual shoes section starts  -->
+    <section class="container my-5">
+        <h1>Casula Shoes</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-md-3  g-4 m-2">
+            <div class="col">
+                <div class="card border-0 shadow">
+                    <img src="images/Casual-3.png" class=" img-fluid  image-grey-background rounded-3  m-3">
+
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <h3>Nike Shoes</h3>
+                        </h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional
+                            content. This content is a little bit longer.</p>
+                    </div>
+                    <div class=" d-flex justify-content-between align-items-center m-3">
+                        <h4 class="text-price-button-color">$230</h4>
+                        <button class="btn btn-primary ">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-0 shadow">
+
+                    <img src="images/Casual-2.png" class=" img-fluid  image-grey-background rounded-3  m-3">
+
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <h3>Sneakers Skate Shoe</h3>
+                        </h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional
+                            content. This content is a little bit longer.</p>
+                    </div>
+                    <div class=" d-flex justify-content-between align-items-center m-3">
+                        <h4 class="text-price-button-color">$230</h4>
+                        <button class="btn btn-primary ">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-0 shadow">
+
+                    <img src="images/Casual-1.png" class=" img-fluid  image-grey-background rounded-3  m-3">
+
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <h3>Sneakers Basketball </h3>
+                        </h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional
+                            content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center m-3">
+                        <h4 class="text-price-button-color">$230</h4>
+                        <button class="btn btn-primary ">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+    <!-- Casual shoes section ends -->
+
+    <!-- This is a toast -->
+    <button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
+
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <img src="" class="rounded me-2" alt="...">
+                <strong class="me-auto">Bootstrap</strong>
+                <small>11 mins ago</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+                Hello, world! This is a toast message.
+            </div>
+        </div>
+    </div>
+    <!-- This is a toast -->
+
+
+    <!-- Formal shoes section starts  -->
+    <section class="container my-5">
+        <h1>Foraml shoes Shoes</h1>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-md-3  g-4 m-2 ">
+            <div class="col ">
+                <div class="card border-0 shadow">
+                    <img src="images/Formal-1.png" class=" img-fluid rounded-3  m-3">
+                    <div class="card-body">
+                        <h4 class="card-title">
+                            <h3>Prestige High-Cut</h3>
+                        </h4>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional
+                            content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="container d-flex justify-content-between align-items-center">
+                        <h4 class="text-price-button-color">$230</h4>
+                        <button class="btn btn-primary m-2">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-0 shadow">
+
+                    <img src="images/Formal-2.png" class=" img-fluid  image-grey-background rounded-3  m-3">
+
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <h3>Slip-On Formal Shoe</h3>
+                        </h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional
+                            content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="container d-flex justify-content-between align-items-center">
+                        <h4 class="text-price-button-color">$230</h4>
+                        <button class="btn btn-primary m-2">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card border-0 shadow">
+
+                    <img src="images/Formal-3.png" class=" img-fluid  image-grey-background rounded-3  m-3">
+
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <h3>Slip-On Formal Shoe</h3>
+                        </h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional
+                            content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="container d-flex justify-content-between align-items-center">
+                        <h4 class="text-price-button-color">$230</h4>
+                        <button class="btn btn-primary m-2">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+    <!-- Formal shoes section ends -->
+
+
+
+    <!-- Last section starts  -->
+    <section class="container">
+        <div class="card mb-3 border-0">
+            <div class=" row g-0 d-flex flex-sm-row-reverse">
+
+
+                <div class="col-md-6 p-3 d-flex align-items-center">
+                    <img src="icons/XMLID 1.png" class="img-fluid rounded-start" alt="...">
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card-body d-flex flex-column">
+                        <div class="d-flex shadow rounded p-3 mb-3 align-items-center">
+                            <img class="img-fluid " src="icons/image 12.png" alt="" width="80" height="80">
+                            <p>Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Reprehenderit, eligendi?</p>
+                        </div>
+                        <div class="d-flex shadow rounded p-3 mb-3 align-items-center">
+                            <img class="img-fluid " src="icons/image 12.png" alt="" width="80" height="80">
+                            <p>Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Reprehenderit, eligendi?</p>
+                        </div>
+                        <div class="d-flex shadow rounded p-3 mb-3 align-items-center">
+                            <img class="img-fluid " src="icons/image 12.png" alt="" width="80" height="80">
+                            <p>Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Reprehenderit, eligendi?</p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Last section ends -->
+
+
+    <!-- Main sectioin ends -->
+
+
+
+
+
+
+
+
+    <!-- Toast CDN link  -->
+    <script>
+        // js for toast
+        document.getElementById("liveToastBtn").onclick = function () {
+            var myAlert = document.getElementById("liveToast"); //select id of toast
+            var bsAlert = new bootstrap.Toast(myAlert); //inizialize it
+            bsAlert.show(); //show it
+        };
+    </script>
+    <!-- javascript link  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
